@@ -2,7 +2,9 @@ html, body{
 font-family: 'Open Sans', sans-serif;
  font-size: 100%;
  background: #fff;
+ 
 }
+#about,#work{padding-top: 70px;}
 body a,.grid_1,plan_1,plan_1.one,plan_1.two,i.icon1, i.icon2, i.icon3, i.icon4, i.icon5, i.icon6 {
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
@@ -35,7 +37,7 @@ label{
 }
 /*----header--------*/
 .banner{
-  background: url(../images/banner7.jpg) no-repeat 0px 0px;
+  background: url(../images/banner8.jpg) no-repeat 0px 0px;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -43,8 +45,6 @@ label{
   -ms-background-size: cover;
   min-height: 400px;
 }
-.banner-bottom .container h2{margin-bottom: 10px; }
-.banner-bottom .container h3{font-weight: bold;}
 .logo {
 	float:left;
 }
@@ -94,8 +94,8 @@ label{
   background: rgba(47, 48, 48, 0);
 }
 .top-menu ul li a.active,.top-menu ul li a:hover{
-	color:#ff1791;
-	border-top:1px solid #ff1791;transition:0.5s all;
+	color:#ffcd38;
+	border-top:1px solid #ffcd38;transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
@@ -235,21 +235,30 @@ nav.navigation a:focus {
 .banner-bottom{
   background:#F7F7F7;
   padding:4em 0;
-  text-align:center;
+  
 }
-.banner-bottom  h2{
+.banner-bottom .p-last{padding-top: 10px;}
+.banner-bottom  h4{
+  margin: 10px 0;
+}
+.banner-bottom  h3{
    font-size: 2.5em;
   font-weight:700;
-  color:#ff1791;
+  text-align:center;
+ /* color:#f7be12;*/
     font-family: 'Orbitron', sans-serif;
 }
 .banner-bottom p {
-  text-align: center;
+  text-align: left;
   line-height: 1.7em;
   font-size: 0.9em;
   color:#1b1b1b;
   margin:1em 0;
 }
+/*.banner-bottom-p{
+	margin: 0 auto;
+	width: 600px;
+}*/
 .trainee-grid:hover  .date{
   transform: rotateY(360deg);
   -webkit-transform: rotateY(360deg);
@@ -261,7 +270,7 @@ nav.navigation a:focus {
 }
 /*----trainers----*/
 .tainers-section {
-  padding: 4em 0;
+  padding: 0 0 4em 0 ;
 }
 .col-md-3.tainer {
     margin: 0;
@@ -273,7 +282,7 @@ nav.navigation a:focus {
 .tainer  h3 {
    font-size: 2.5em;
   font-weight: 700;
-  color: #ff1791;
+  color: #ffcd38;
   font-family: 'Orbitron', sans-serif;
   text-transform: uppercase;
   line-height: 1.4em;
@@ -320,7 +329,7 @@ nav.navigation a:focus {
      font-family: 'Orbitron', sans-serif;
  }
  .bottom-color p {
-   color: #ED4AA0;
+   color: #ffcd38;
   font-size: 1em;
  margin:0.5em 0;
 }
@@ -1012,13 +1021,13 @@ color: #ff1791;
 .f-grids {
   margin-bottom: 2em;
 }
-.f-grids h3{text-align: center; margin-bottom: 10px;;}
+.f-grids h3{text-align: center; margin-bottom: 10px;color: #fff; margin-top: 10px;}
 .f-grids img{margin: 0 auto; display: block;}
 .copy {
   padding: 1em 0;
   border-top: 1px ridge rgba(153, 153, 153, 0.17);
 }
-ul.times h3,.footer-grid h3{
+ul.times h3{
   color: #fff;
   font-size: 1.3em;
   text-align:left;
@@ -1040,9 +1049,9 @@ ul.times h3,.footer-grid h3{
 .footer-grid a h5:hover{ 
  color: #ED4AA0;
  }
-span.opening {
-  color:#ED4AA0;
-}
+/*span.opening {
+  color:#ffcd38;
+}*/
 ul.times{
 	list-style:none;
 	padding: 0;
@@ -1140,7 +1149,7 @@ ul.address li a {
   height: 22px;
   border: none;
   text-indent: 100%;
-  background: url(../images/move-top.png) no-repeat 0px 0px;
+  background: url(../images/move-top1.png) no-repeat 0px 0px;
 }
 /*-----Responsive-----*/
 @media (max-width:1440px){
